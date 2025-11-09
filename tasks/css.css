@@ -186,6 +186,10 @@ footer button{
 
 /* Telefono*/
 @media (max-width: 767px){
+    body {
+    overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
+    }
+
     #titulo{
     font-size: 50px;
     padding: 10px;
@@ -242,7 +246,7 @@ footer button{
 /* Tablet */
 @media (min-width: 768px) {
     body {
-  overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
+    overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
     }
     
     #titulo{
@@ -291,6 +295,9 @@ footer button{
 
 /* Laptop */
 @media (min-width: 1025px){
+    body {
+    overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
+    }
     
     #titulo{
         font-size: 100px;
@@ -337,6 +344,10 @@ footer button{
 
 /* Escritorio */
 @media (min-width: 1444px){
+    body {
+    overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
+    }
+    
     #titulo{
         font-size: 120px;
         padding: 55px;
