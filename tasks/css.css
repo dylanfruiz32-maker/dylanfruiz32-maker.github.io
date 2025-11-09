@@ -251,7 +251,7 @@ footer button{
     
     #titulo{
     font-size: 90px;
-    padding: 40px;
+    padding: 20px;
     }
 
     .cuadro{
@@ -301,7 +301,7 @@ footer button{
     
     #titulo{
         font-size: 100px;
-        padding: 30px;
+        padding: 20px;
     }
     
     .cuadro{
@@ -347,10 +347,10 @@ footer button{
     body {
     overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
     }
-    
+
     #titulo{
-        font-size: 120px;
-        padding: 55px;
+        font-size: 100px;
+        padding: 40px;
     }
 
     .cuadro{
