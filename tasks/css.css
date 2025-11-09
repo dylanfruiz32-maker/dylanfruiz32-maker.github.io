@@ -222,10 +222,12 @@ footer button{
     }
 
     #footer button {
-        padding: 7px 10px;
-        margin: 5px 12px; 
-        font-size: 12px; 
+        padding: 6px 6px;
+        margin: 8px 10px; 
+        font-size: 14px; 
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     
@@ -239,6 +241,10 @@ footer button{
 
 /* Tablet */
 @media (min-width: 768px) {
+    body {
+  overflow: hidden; /* Oculta tanto el scroll horizontal como el vertical */
+    }
+    
     #titulo{
     font-size: 90px;
     padding: 40px;
